@@ -22,6 +22,9 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.css">
+    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.js"></script>
 </head>
 
 <body class="app sidebar-mini">
@@ -41,7 +44,7 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="../assest/icons/admin.svg" alt="Avatar del perfil">
             <div>
             <p class="app-sidebar__user-designation">Admin</p>
                 <p class="app-sidebar__user-name">Usuario</p>
@@ -55,7 +58,7 @@
     <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
     <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
     <li><a class="app-menu__item" href="calendario.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
-        </ul>
+</ul>
     </aside>
     <main class="app-content">
         <div class="app-title">

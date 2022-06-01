@@ -7,6 +7,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="./CSS/style.css">
     <link rel="stylesheet" href="./CSS/header.css">
+    <background img="CSS/jardin.jpg" alt=""></background>
 </head>
 <body>
     <form action="validar.php" method="post" >

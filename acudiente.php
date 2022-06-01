@@ -48,11 +48,16 @@
             </div>
         </div>
         <ul class="app-menu">
-            <li><a class="app-menu__item" href="acudiente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Usuarios</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Alumnos</span></a></li>
+        <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+            <li><a class="app-menu__item" href="Calendario2.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Tareas</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Grupo</span></a></li>
+            <li><a class="app-menu__item" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
+            
+
         </ul>
     </aside>
     <main class="app-content">
