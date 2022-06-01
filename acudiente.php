@@ -1,36 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
+    <meta name="description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <!-- Twitter meta-->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@pratikborsadiya">
+    <meta property="twitter:creator" content="@pratikborsadiya">
+    <!-- Open Graph Meta-->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Vali Admin">
+    <meta property="og:title" content="Vali - Free Bootstrap 4 admin theme">
+    <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
+    <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
+    <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
+    <title>Acudiente</title>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./CSS/style.css">
-    <link rel="stylesheet" href="./CSS/header.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Main CSS-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- Font-icon css-->
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
-<body>
-    <li><a class="app-menu__item" href="docs.html"><i class="app-menu__icon fa fa-file-code-o"></i><span class="app-menu__label">Docs</span></a></li>
-    </ul>
+<body class="app sidebar-mini">
+    <!-- Navbar-->
+    <header class="app-header"><a class="app-header__logo" href="index.html">Acudiente</a>
+        <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
+        <!-- Navbar Right Menu-->
+        <ul class="app-nav">
+            <!-- User Menu-->
+            <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
+                <ul class="dropdown-menu settings-menu dropdown-menu-right">
+                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i>Inicio</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <!-- Sidebar menu-->
+    <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
+    <aside class="app-sidebar">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="User Image">
+            <div>
+            <p class="app-sidebar__user-designation">Acudiente</p>
+                <p class="app-sidebar__user-name">Usuario</p>
+            </div>
+        </div>
+        <ul class="app-menu">
+            <li><a class="app-menu__item" href="acudiente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Usuarios</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Alumnos</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
+        </ul>
     </aside>
     <main class="app-content">
         <div class="app-title">
-            <div>
-                <h1><i class="fa fa-dashboard"></i> Blank Page</h1>
-                <p>Start a beautiful journey here</p>
-            </div>
-            <ul class="app-breadcrumb breadcrumb">
-                <li class="breadcrumb-item"><i class="fa fa-home fa-lg"></i></li>
-                <li class="breadcrumb-item"><a href="#">Blank Page</a></li>
-            </ul>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="tile">
-                    <div class="tile-body">Create a beautiful dashboard</div>
-                </div>
-            </div>
+            <!-- Codigo de main aqui -->
         </div>
     </main>
     <!-- Essential javascripts for application to work-->
@@ -59,9 +86,6 @@
             ga('send', 'pageview');
         }
     </script>
-</body>
-
-</html>
 </body>
 
 </html>
