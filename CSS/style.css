@@ -16228,7 +16228,7 @@ be a descendant of the grid when it is being dragged.
 .animated-checkbox input[type="checkbox"]+.label-text:before {
     content: "";
     font-family: "FontAwesome";
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -16273,7 +16273,7 @@ be a descendant of the grid when it is being dragged.
 .animated-radio-button input[type="radio"]+.label-text:before {
     content: "";
     font-family: "FontAwesome";
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -16353,7 +16353,7 @@ be a descendant of the grid when it is being dragged.
 .toggle input[type="checkbox"]+.button-indecator:before {
     content: "";
     font-family: "FontAwesome";
-    speak: none;
+    speak-as: none;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
