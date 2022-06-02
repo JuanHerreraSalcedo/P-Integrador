@@ -21,7 +21,8 @@
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body class="app sidebar-mini">
@@ -49,12 +50,12 @@
         </div>
         <ul class="app-menu">
         <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-    <li><a class="app-menu__item" href="registro.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Crear usuarios</span></a></li>
-    <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
-    <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
-    <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-    <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
-    <li><a class="app-menu__item" href="calendario.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
+    <li><a class="app-menu__item" href="registro.php"><i class="fa-solid fa-users"></i></i><span class="app-menu__label">Crear usuarios</span></a></li>
+    <li><a class="app-menu__item" href="correo.php"><i class="fa-solid fa-envelope"></i></i><span class="app-menu__label">Correos</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-person-chalkboard"></i></i><span class="app-menu__label">Docentes</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
+    <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
+    <li><a class="app-menu__item" href="calendario.php"><i class="fa-solid fa-calendar-days"></i></i><span class="app-menu__label">Calendario</span></a></li>
         </ul>
     </aside>
     <main class="app-content">
