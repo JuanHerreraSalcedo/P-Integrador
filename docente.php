@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="app sidebar-mini">
@@ -47,10 +48,11 @@
                 <p class="app-sidebar__user-name">Usuario</p>
             </div>
         </div>
+        
         <ul class="app-menu">
             <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item" href="Calendario2.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
+            <li><a class="app-menu__item" href="calendario.php"><i class="fa-solid fa-calendar-days"></i></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Tareas</span></a></li>
