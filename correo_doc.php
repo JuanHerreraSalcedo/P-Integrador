@@ -43,11 +43,12 @@
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
         <ul class="app-menu">
-            <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+        <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="calendario_docente.php"><i class="fa-solid fa-calendar-days"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href="Profesores_doc.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
             <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
             <li><a class="app-menu__item" href="estudiantes_doc.php"><i class="fa-solid fa-child"></i><span class="app-menu__label">Estudiantes</span></a></li>
+            <li><a class="app-menu__item" href="correo_doc.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
             <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
             <li><a class="app-menu__item" href="index.php"><i class="fa-solid fa-right-from-bracket"></i><span class="app-menu__label">Cerrar sesión</span></a></li>
         </ul>
@@ -56,13 +57,50 @@
         <div class="app-title">
             <!-- Codigo de main aqui -->
         </div>
-        <form action="">
-            <input type="text" placeholder="name" name="name">
-            <input type="email" placeholder="email" name="email">
-            <input type="password" placeholder="password" name="password">
-            <textarea placeholder="Mensaje" name="msg"></textarea>
-    
-        </form>
+        <h1>Formulario de contacto</h1>
+<div class="contact">
+	<div class="contact-main">
+	<form method="post">
+		<h3>Tu correo electrónico</h3>
+		<input type="email" placeholder="Ingresa tu correo electrónico" class="hola"  name="email" required />
+		
+		<h3>Tu nombre</h3>
+		<input type="text" placeholder="Ingresa tu nombre" class="hola"  name="customer_name" required />
+		<h3>Asunto</h3>
+		<input type="text" placeholder="Ingresa el asunto del correo" class="hola"  name="subject" required />
+		<h3>Mensaje</h3>
+		<textarea  name="message" placeholder="Escribe tu mensaje" required></textarea>
+		<?php
+			if (isset($_POST['send'])){
+				include("sendemail.php");//Mando a llamar la funcion que se encarga de enviar el correo electronico
+				
+				/*Configuracion de variables para enviar el correo*/
+				$mail_username="";//Correo electronico saliente ejemplo: tucorreo@gmail.com
+				$mail_userpassword="";//Tu contraseña de gmail
+				$mail_addAddress="info@obedalvarado.pw";//correo electronico que recibira el mensaje
+				$template="email_template.html";//Ruta de la plantilla HTML para enviar nuestro mensaje
+				
+				/*Inicio captura de datos enviados por $_POST para enviar el correo */
+				$mail_setFromEmail=$_POST['customer_email'];
+				$mail_setFromName=$_POST['customer_name'];
+				$txt_message=$_POST['message'];
+				$mail_subject=$_POST['subject'];
+				
+				sendemail($mail_username,$mail_userpassword,$mail_setFromEmail,$mail_setFromName,$mail_addAddress,$txt_message,$mail_subject,$template);//Enviar el mensaje
+			}
+		?>
+	</div>
+	<div class="enviar">
+		<div class="contact-check">
+			
+		</div>
+        <div class="contact-enviar">
+		  <input type="submit" value="Enviar mensaje" name="send">
+		</div>
+		<div class="clear"> </div>
+		</form>
+</div>
+</div>
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>
