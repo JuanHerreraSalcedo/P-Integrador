@@ -20,6 +20,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
@@ -42,9 +43,9 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="User Image">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
             <div>
-                <p class="app-sidebar__user-designation">Acudiente</p>
+                <p class="app-sidebar__user-designation">Admin</p>
                 <p class="app-sidebar__user-name">Usuario</p>
             </div>
         </div>
@@ -59,10 +60,8 @@
             <li><a class="app-menu__item" href="correo_acu.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
         </ul>
     </aside>
-    <main class="app-content">
-        <div class="app-title">
-            <!-- Codigo de main aqui -->
-        </div>
+    <main>
+
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>

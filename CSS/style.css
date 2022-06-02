@@ -15596,6 +15596,8 @@ be a descendant of the grid when it is being dragged.
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     margin-right: 15px;
+    height: 20px;
+    width: 20px;
 }
 
 .app-sidebar__user-name {
@@ -17124,7 +17126,9 @@ be a descendant of the grid when it is being dragged.
 
 .user .user-settings label {
     color: #666;
-}.modal-open {
+}
+
+.modal-open {
     overflow: hidden;
 }
 
