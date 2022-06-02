@@ -1,26 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de usuarios</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-
-<body>
-
-    <?php if (!empty($_message)) : ?>
-        <p><?php $message ?></p>
-
-    <?php endif; ?>
-
-</body>
-
-</html>
-
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -41,8 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" href="../CSS/registro.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
@@ -67,34 +44,31 @@
     <aside class="app-sidebar">
         <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
             <div>
-                <p class="app-sidebar__user-designation">Admin</p>
+            <p class="app-sidebar__user-designation">Admin</p>
                 <p class="app-sidebar__user-name">Usuario</p>
             </div>
         </div>
         <ul class="app-menu">
-            <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item" href="registro.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Crear usuarios</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
-            <li><a class="app-menu__item" href="calendario.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
+        <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+    <li><a class="app-menu__item" href="registro.php"><i class="fa-solid fa-users"></i></i><span class="app-menu__label">Crear usuarios</span></a></li>
+    <li><a class="app-menu__item" href="correo.php"><i class="fa-solid fa-envelope"></i></i><span class="app-menu__label">Correos</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-person-chalkboard"></i></i><span class="app-menu__label">Docentes</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
+    <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
+    <li><a class="app-menu__item" href="calendario.php"><i class="fa-solid fa-calendar-days"></i></i><span class="app-menu__label">Calendario</span></a></li>
         </ul>
     </aside>
-
     <main class="app-content">
         <div class="app-title">
-            <form action="./php/index.php" method="POST">
-                <h1>Registro de usuarios</h1>
-                <input type="text" name="nombre" placeholder="Ingresa el nombre" required>
-                <input type="text" name="username" placeholder="Ingresa el usuario" required>
-                <input type="password" name="password" placeholder="Ingresa tu contraseña" required>
-                <input type="password" name="confirm_password" placeholder="Confirma tu contraseña" required>
-                <input type="text" name="estado" placeholder="Ingrese el estado" required>
-                <input type="number" name="id_rol" placeholder="Ingrese el rol">
-                <input type="submit" value="send" />
-            </form>
+            <!-- Codigo de main aqui -->
         </div>
+        <form action="">
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="email" name="email">
+            <input type="password" placeholder="password" name="password">
+            <textarea placeholder="Mensaje" name="msg"></textarea>
+    
+        </form>
     </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>

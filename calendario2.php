@@ -19,7 +19,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -27,6 +27,7 @@
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.css">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.js"></script>
+    <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="app sidebar-mini">
@@ -56,12 +57,12 @@
             <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="Calendario2.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Tareas</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Grupo</span></a></li>
-            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
-
+            <li><a class="app-menu__item" href=""><i class="fa-solid fa-person-chalkboard"></i><span class="app-menu__label">Profesores</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="fa-solid fa-puzzle-piece"></i><span class="app-menu__label">Tareas</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="fa-solid fa-users-rectangle"></i><span class="app-menu__label">Grupo</span></a></li>
+            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
+            <li><a class="app-menu__item" href="correo2.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
 
 
         </ul>
@@ -69,10 +70,7 @@
     <main class="app-content">
         <div class="app-title">
             <!-- Codigo de main aqui -->
-        </div>
-    </main>
-      
-  <div class="container"> 
+            <div class="container"> 
 
 <div class="col-md-8 offset-md-2">
   <div id='calendar'></div>
@@ -127,7 +125,8 @@
             ga('create', 'UA-72504830-1', 'auto');
             ga('send', 'pageview');
         }
-    </script>
+        </div>
+    </main>
 </body>
 
 </html>
