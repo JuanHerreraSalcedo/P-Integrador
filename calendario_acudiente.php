@@ -52,12 +52,11 @@
             </div>
         </div>
         <ul class="app-menu">
-            <li><a class="app-menu__item" href="acudiente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+        <li><a class="app-menu__item" href="acudiente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="calendario_acudiente.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href="estudiantes_acu.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
             <li><a class="app-menu__item" href="Profesores_acu.php"><i class="fa-solid fa-person-chalkboard"></i><span class="app-menu__label">Profesores</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Grupo</span></a></li>
             <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
             <li><a class="app-menu__item" href="correo_acu.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
         </ul>
