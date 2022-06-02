@@ -57,6 +57,7 @@
             <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
             <li><a class="app-menu__item" href="calendario_admin.php"><i class="fa-solid fa-calendar-days"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href="index.php"><i class="fa-solid fa-right-from-bracket"></i><span class="app-menu__label">Cerrar sesión</span></a></li>
+            <link rel="icon" href="assest/favicon.ico">
         </ul>
     </aside>
     <main class="app-content">
