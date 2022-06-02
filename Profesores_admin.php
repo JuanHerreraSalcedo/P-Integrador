@@ -51,14 +51,14 @@
             </div>
         </div>
         <ul class="app-menu">
-            <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+        <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="registro.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Crear usuarios</span></a></li>
-            <li><a class="app-menu__item" href="estudiantes.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
+            <li><a class="app-menu__item" href="estudiantes_admin.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
+            <li><a class="app-menu__item" href="correo_admin.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
+            <li><a class="app-menu__item" href="Profesores_admin.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
             <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
-            <li><a class="app-menu__item" href="calendario.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
+            <li><a class="app-menu__item" href="calendario_admin.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
         </ul>
     </aside>
     <main class="app-content">
