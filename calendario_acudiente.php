@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.css">
     <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.js"></script>
     <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assest/favicon.ico">
 </head>
 
 <body class="app sidebar-mini">

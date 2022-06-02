@@ -23,6 +23,7 @@
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="assest/favicon.ico">
 </head>
 
 <body class="app sidebar-mini">
