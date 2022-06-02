@@ -47,12 +47,6 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="User Image">
-            <div>
-            <p class="app-sidebar__user-designation">Docente</p>
-                <p class="app-sidebar__user-name">Usuario</p>
-            </div>
-        </div>
         <ul class="app-menu">
             <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="calendario_docente.php"><i class="fa-solid fa-calendar-days"></i><span class="app-menu__label">Calendario</span></a></li>
