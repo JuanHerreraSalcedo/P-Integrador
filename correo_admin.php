@@ -63,7 +63,8 @@
     <main class="app-content">
         <div class="app-title">
             <!-- Codigo de main aqui -->
-            <h1>Formulario de contacto</h1>
+        </div>
+        <h1>Formulario de contacto</h1>
 <div class="contact">
 	<div class="contact-main">
 	<form method="post">
@@ -107,16 +108,7 @@
 		</form>
 </div>
 </div>
-        </div>
-        <form action="">
-            <input type="text" placeholder="name" name="name">
-            <input type="email" placeholder="email" name="email">
-            <input type="password" placeholder="password" name="password">
-            <textarea placeholder="Mensaje" name="msg"></textarea>
-    
-        </form>
-    </main>
-    <!-- Essential javascripts for application to work-->
+    </main>    <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
