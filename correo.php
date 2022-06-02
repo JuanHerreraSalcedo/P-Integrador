@@ -14,25 +14,20 @@
     <meta property="og:url" content="http://pratikborsadiya.in/blog/vali-admin">
     <meta property="og:image" content="http://pratikborsadiya.in/blog/vali-admin/hero-social.png">
     <meta property="og:description" content="Vali is a responsive and free admin theme built with Bootstrap 4, SASS and PUG.js. It's fully customizable and modular.">
-    <title>Docente</title>
+    <title>Admin</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"  integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.js"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/main.css">
-    <script src="https://cdn.jsdelivr.net/npm/fullcalendar@5.11.0/locales-all.js"></script>
     <script src="https://kit.fontawesome.com/7ecad0e979.js" crossorigin="anonymous"></script>
 </head>
 
 <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.html">Acudiente</a>
+    <header class="app-header"><a class="app-header__logo" href="index.html">Admin</a>
         <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
         <!-- Navbar Right Menu-->
         <ul class="app-nav">
@@ -47,57 +42,34 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="User Image">
+        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
             <div>
-            <p class="app-sidebar__user-designation">Acudiente</p>
+            <p class="app-sidebar__user-designation">Admin</p>
                 <p class="app-sidebar__user-name">Usuario</p>
             </div>
         </div>
         <ul class="app-menu">
-        <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item" href="Calendario2.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="fa-solid fa-person-chalkboard"></i><span class="app-menu__label">Profesores</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Tareas</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Grupo</span></a></li>
-            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
-            <li><a class="app-menu__item" href="correo2.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
+        <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
+    <li><a class="app-menu__item" href="registro.php"><i class="fa-solid fa-users"></i></i><span class="app-menu__label">Crear usuarios</span></a></li>
+    <li><a class="app-menu__item" href="correo.php"><i class="fa-solid fa-envelope"></i></i><span class="app-menu__label">Correos</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-person-chalkboard"></i></i><span class="app-menu__label">Docentes</span></a></li>
+    <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
+    <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
+    <li><a class="app-menu__item" href="calendario.php"><i class="fa-solid fa-calendar-days"></i></i><span class="app-menu__label">Calendario</span></a></li>
         </ul>
     </aside>
     <main class="app-content">
         <div class="app-title">
             <!-- Codigo de main aqui -->
-            <div class="container"> 
-
-<div class="col-md-8 offset-md-2">
-  <div id='calendar'></div>
-
-</div>
-</div>
-
-<script>
-
-    document.addEventListener('DOMContentLoaded', function() {
-      var calendarEl = document.getElementById('calendar');
-      var calendar = new FullCalendar.Calendar(calendarEl, {
-        initialView: 'dayGridMonth',
-        locale:"es",
-        headerToolbar:{
-          left:'prev,next today',
-          center:'title',
-          right:'dayGridMonth, timeGridWeek, timeGridDay'
-        }
-      });
-      calendar.render();
-    });
-
-  </script>
-
-
-  <!-- Bootstrap JavaScript Libraries -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        </div>
+        <form action="">
+            <input type="text" placeholder="name" name="name">
+            <input type="email" placeholder="email" name="email">
+            <input type="password" placeholder="password" name="password">
+            <textarea placeholder="Mensaje" name="msg"></textarea>
+    
+        </form>
+    </main>
     <!-- Essential javascripts for application to work-->
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/popper.min.js"></script>
@@ -123,8 +95,7 @@
             ga('create', 'UA-72504830-1', 'auto');
             ga('send', 'pageview');
         }
-        </div>
-    </main>
+    </script>
 </body>
 
 </html>
