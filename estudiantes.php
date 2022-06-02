@@ -1,33 +1,4 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro de usuarios</title>
-    <link rel="stylesheet" href="CSS/style.css">
-</head>
-
-<body>
-
-    <?php if (!empty($_message)) : ?>
-        <p><?php $message ?></p>
-
-    <?php endif; ?>
-
-</body>
-
-</html>
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
 <html lang="es">
 
 <head>
@@ -48,10 +19,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" href="../CSS/registro.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style_Modal.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
 </head>
 
 <body class="app sidebar-mini">
@@ -80,6 +53,7 @@
         <ul class="app-menu">
             <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="registro.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Crear usuarios</span></a></li>
+            <li><a class="app-menu__item" href="estudiantes.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
             <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
@@ -87,19 +61,9 @@
             <li><a class="app-menu__item" href="calendario.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Calendario</span></a></li>
         </ul>
     </aside>
-
     <main class="app-content">
         <div class="app-title">
-            <form action="./php/index.php" method="POST">
-                <h1>Registro de usuarios</h1>
-                <input type="text" name="nombre" placeholder="Ingresa el nombre" required>
-                <input type="text" name="username" placeholder="Ingresa el usuario" required>
-                <input type="password" name="password" placeholder="Ingresa tu contraseña" required>
-                <input type="password" name="confirm_password" placeholder="Confirma tu contraseña" required>
-                <input type="text" name="estado" placeholder="Ingrese el estado" required>
-                <input type="number" name="id_rol" placeholder="Ingrese el rol">
-                <input type="submit" value="send" />
-            </form>
+
         </div>
     </main>
     <!-- Essential javascripts for application to work-->
@@ -109,6 +73,8 @@
     <script src="js/main.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <!-- Page specific javascripts-->
     <!-- Google analytics script-->
     <script type="text/javascript">

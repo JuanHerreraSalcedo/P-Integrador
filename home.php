@@ -50,6 +50,7 @@
         <ul class="app-menu">
         <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
     <li><a class="app-menu__item" href="registro.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Crear usuarios</span></a></li>
+    <li><a class="app-menu__item" href="estudiantes.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
     <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Correos</span></a></li>
     <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Docentes</span></a></li>
     <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
