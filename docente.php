@@ -34,7 +34,7 @@
             <!-- User Menu-->
             <li class="dropdown"><a class="app-nav__item" href="#" data-toggle="dropdown" aria-label="Open Profile Menu"><i class="fa fa-user fa-lg"></i></a>
                 <ul class="dropdown-menu settings-menu dropdown-menu-right">
-                    <li><a class="dropdown-item" href="page-user.html"><i class="fa fa-user fa-lg"></i>Inicio</a></li>
+                    <li><a class="dropdown-item" href="docente.php"><i class="fa fa-user fa-lg"></i>Inicio</a></li>
                 </ul>
             </li>
         </ul>
@@ -51,14 +51,12 @@
         
         <ul class="app-menu">
             <li><a class="app-menu__item" href="docente.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Notas</span></a></li>
-            <li><a class="app-menu__item" href="calendario_docente.php"><i class="fa-solid fa-calendar-days"></i></i><span class="app-menu__label">Calendario</span></a></li>
+            <li><a class="app-menu__item" href="calendario_docente.php"><i class="fa-solid fa-calendar-days"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href="Profesores_doc.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Profesores</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reportes</span></a></li>
-            <li><a class="app-menu__item" href="estudiantes_doc.php"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Estudiantes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Tareas</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Grupo</span></a></li>
-            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="app-menu__icon fa fa-edit"></i><span class="app-menu__label">Reuniones</span></a></li>
+            <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
+            <li><a class="app-menu__item" href="estudiantes_doc.php"><i class="fa-solid fa-child"></i><span class="app-menu__label">Estudiantes</span></a></li>
+            <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
+            <li><a class="app-menu__item" href="index.php"><i class="fa-solid fa-right-from-bracket"></i><span class="app-menu__label">Cerrar sesión</span></a></li>
         </ul>
     </aside>
     <main class="app-content">
