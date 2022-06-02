@@ -15612,6 +15612,7 @@ be a descendant of the grid when it is being dragged.
     -o-text-overflow: ellipsis;
     text-overflow: ellipsis;
     margin-bottom: 0;
+    text-align: center;
 }
 
 .app-menu {

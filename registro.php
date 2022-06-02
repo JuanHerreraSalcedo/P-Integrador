@@ -41,7 +41,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Main CSS-->
-    <link rel="stylesheet" href="CSS/registro.css">
+    <!--<link rel="stylesheet" href="CSS/registro.css">-->
     <link rel="stylesheet" href="CSS/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -50,7 +50,7 @@
 
 <body class="app sidebar-mini">
     <!-- Navbar-->
-    <header class="app-header"><a class="app-header__logo" href="index.html">Admin</a>
+    <header class="app-header"><a class="app-header__logo" href="home.php">Inicio</a>
         <!-- Sidebar toggle button--><a class="app-sidebar__toggle" href="#" data-toggle="sidebar" aria-label="Hide Sidebar"></a>
         <!-- Navbar Right Menu-->
         <ul class="app-nav">
@@ -65,12 +65,6 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
-            <div>
-                <p class="app-sidebar__user-designation">Admin</p>
-                <p class="app-sidebar__user-name">Usuario</p>
-            </div>
-        </div>
         <ul class="app-menu">
             <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="registro.php"><i class="fa-solid fa-user-plus"></i><span class="app-menu__label">Crear usuarios</span></a></li>
