@@ -43,19 +43,11 @@
     <!-- Sidebar menu-->
     <div class="app-sidebar__overlay" data-toggle="sidebar"></div>
     <aside class="app-sidebar">
-        <div class="app-sidebar__user"><img class="app-sidebar__user-avatar" src="" alt="Avatar del perfil">
-            <div>
-            <p class="app-sidebar__user-designation">Admin</p>
-                <p class="app-sidebar__user-name">Usuario</p>
-            </div>
-        </div>
+
         <ul class="app-menu">
             <li><a class="app-menu__item" href="home.php"><i class="app-menu__icon fa fa-dashboard"></i><span class="app-menu__label">Inicio</span></a></li>
             <li><a class="app-menu__item" href="registro.php"><i class="fa-solid fa-user-plus"></i><span class="app-menu__label">Crear usuarios</span></a></li>
-            <li><a class="app-menu__item" href="estudiantes_admin.php"><i class="fa-solid fa-child"></i><span class="app-menu__label">Estudiantes</span></a></li>
             <li><a class="app-menu__item" href="correo_admin.php"><i class="fa-solid fa-envelope"></i><span class="app-menu__label">Correos</span></a></li>
-            <li><a class="app-menu__item" href="Profesores_admin.php"><i class="fa-solid fa-chalkboard-user"></i><span class="app-menu__label">Docentes</span></a></li>
-            <li><a class="app-menu__item" href=""><i class="fa-solid fa-exclamation"></i><span class="app-menu__label">Reportes</span></a></li>
             <li><a class="app-menu__item" target="_blank" href="https://meet.google.com/kii-hgto-tmk"><i class="fa-solid fa-phone"></i><span class="app-menu__label">Reuniones</span></a></li>
             <li><a class="app-menu__item" href="calendario_admin.php"><i class="fa-solid fa-calendar-days"></i><span class="app-menu__label">Calendario</span></a></li>
             <li><a class="app-menu__item" href="index.php"><i class="fa-solid fa-right-from-bracket"></i><span class="app-menu__label">Cerrar sesión</span></a></li>
